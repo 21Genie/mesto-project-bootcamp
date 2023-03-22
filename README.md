@@ -12,6 +12,6 @@
 * querySelector
 * Pop-up
 * addEventListener
-## [Ссылка на проект &rarr;]()
+## [Ссылка на проект &rarr;](https://21genie.github.io/mesto-project-bootcamp/)
 
 ## [Макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
