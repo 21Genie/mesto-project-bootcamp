@@ -1,0 +1,15 @@
+.modal__name {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  outline: none; 
+  border: none;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+}

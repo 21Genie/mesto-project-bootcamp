@@ -1,0 +1,10 @@
+.modal__line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 13px;
+}
+
+@media (min-width: 768px) {
+  .modal__line {
+    width: 358px;
+  }
+}

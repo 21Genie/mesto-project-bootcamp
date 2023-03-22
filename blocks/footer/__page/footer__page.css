@@ -1,0 +1,11 @@
+.footer__page {
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+
+@media (min-width: 1024px) {
+  .footer__copyright {
+    margin-top: 66px;
+    margin-bottom: 60px;
+  }
+}

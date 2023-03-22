@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="body">
+  <header class="header header__page">
+    <img class="header__logo" src="./images/logo.svg" alt="Логотип">
+  </header>
+  <main>
+    <section class="profile profile__page">
+      <img class="profile__avatar" src="./images/avatar.jpg" alt="Фотография Жак-Ив Кусто">
+      <div class="profile__info">
+        <h1 class="profile__name">Жак-Ив Кусто</h1>
+        <button class="profile__button profile__button_type_edit open-popup"></button>
+
+        <div class="overlay">
+          <div class="modal">
+            <div class="modal__body">
+              <h3 class="modal__title">Редактировать профиль</h3>
+              <button class="modal__close"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 18L12 10L20 2L18 0L10 8L2 0L0 2L8 10L0 18L2 20L10 12L18 20L20 18Z" fill="white"/>
+                </svg></button>
+              <form class="modal__form">
+                <div class="modal__line">
+                  <input class="modal__name" type="text" value="Жак-Ив Кусто">
+                </div>
+                <div class="modal__line">
+                  <input class="modal__description" type="text" value="Исследователь океана">
+                </div>
+                <button class="modal__save">Сохранить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <p class="profile__description">Исследователь океана</p>
+      </div>
+      <button class="profile__button profile__button_type_add open-popup"></button>
+    </section>
+
+    <section class="elements elements__page">
+      <ul class="elements__list">
+        <li class="elements__item">
+          <img class="elements__image" src="./images/karachayevsk.jpg" alt="Карачаевск">
+          <div class="elements__card-container">
+            <h3 class="elements__title">Карачаевск</h3>
+
+            <div class="elements__like-container">
+              <button class="elements__like"></button>
+            </div>
+          </div>
+        </li>
+
+        <li class="elements__item">
+          <img class="elements__image" src="./images/mount-elbrus.jpg" alt="Гора Эльбрус">
+          <div class="elements__card-container">
+            <h3 class="elements__title">Гора Эльбрус</h3>
+            <div class="elements__like-container">
+              <button class="elements__like"></button>
+            </div>
+          </div>
+        </li>
+
+
+        <li class="elements__item">
+          <img class="elements__image" src="./images/dombay.jpg" alt="Домбай">
+          <div class="elements__card-container">
+            <h3 class="elements__title">Домбай</h3>
+            <div class="elements__like-container">
+              <button class="elements__like"></button>
+            </div>
+          </div>
+        </li>
+
+
+        <li class="elements__item">
+          <img class="elements__image" src="./images/karachayevsk.jpg" alt="Карачаевск">
+          <div class="elements__card-container">
+            <h3 class="elements__title">Карачаево-Карачаево</h3>
+            <div class="elements__like-container">
+              <button class="elements__like"></button>
+            </div>
+          </div>
+        </li>
+
+
+        <li class="elements__item">
+          <img class="elements__image" src="./images/mount-elbrus.jpg" alt="Гора Эльбрус">
+          <div class="elements__card-container">
+            <h3 class="elements__title">Гора Эльбрус</h3>
+            <div class="elements__like-container">
+              <button class="elements__like"></button>
+            </div>
+          </div>
+        </li>
+
+
+        <li class="elements__item">
+          <img class="elements__image" src="./images/dombay.jpg" alt="Домбай">
+          <div class="elements__card-container">
+            <h3 class="elements__title">Домбай</h3>
+            <div class="elements__like-container">
+              <button class="elements__like"></button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer footer__page">
+    <p class="footer__copyright">© 2023 Mesto Russia</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

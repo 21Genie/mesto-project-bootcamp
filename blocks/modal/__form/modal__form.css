@@ -1,0 +1,10 @@
+.modal__form {
+  display: block;
+  margin-top: 75px;
+}
+
+@media (min-width: 768px) {
+  .modal__form {
+    margin-top: 54px;
+  }
+}
