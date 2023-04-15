@@ -1,0 +1,10 @@
+.popup-add__form {
+  display: block;
+  margin-top: 75px;
+}
+
+@media (min-width: 768px) {
+  .popup-add__form {
+    margin-top: 54px;
+  }
+}

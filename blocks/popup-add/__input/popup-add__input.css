@@ -1,0 +1,19 @@
+.popup-add__input {
+  width: 100%;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  outline: none; 
+  border: none;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 13px;
+}
+
+.popup-add__input:nth-last-child(2n) {
+  margin-top: 30px;
+}

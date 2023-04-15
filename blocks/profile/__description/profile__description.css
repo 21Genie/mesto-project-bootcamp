@@ -9,6 +9,9 @@
   font-size: 14px;
   line-height: 17px;
   color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (min-width: 1024px) {

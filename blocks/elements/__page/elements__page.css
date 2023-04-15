@@ -1,9 +1,0 @@
-.elements__page {
-  margin-top: 36px;
-}
-
-@media (min-width: 1024px) {
-  .elements__page {
-    margin-top: 51px;
-  }
-}

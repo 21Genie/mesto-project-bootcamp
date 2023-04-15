@@ -6,6 +6,7 @@
   height: 20px;
   border: 0;
   padding: 0;
+  background-image: url(../../../images/close.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-color: transparent;

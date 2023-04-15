@@ -1,0 +1,10 @@
+.popup-edit__form {
+  display: block;
+  margin-top: 75px;
+}
+
+@media (min-width: 768px) {
+  .popup-edit__form {
+    margin-top: 54px;
+  }
+}
