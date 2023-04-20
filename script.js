@@ -7,10 +7,6 @@ const openPopupAdd = document.querySelector('.profile__button_type_add');
 const closePopupEdit = document.querySelector('.popup-edit__close');
 const closePopupAdd = document.querySelector('.popup-add__close');
 
-const closeSaveEdit = document.querySelector('.popup-edit__save');
-const closeSaveAdd = document.querySelector('.popup-add__save');
-
-//Открытие и закрытие Popup
 openPopupEdit.addEventListener('click', () => {
   overlayEdit.classList.add('active');
 });
@@ -43,6 +39,7 @@ document.addEventListener('click', (event) => {
 const formElementEdit = document.querySelector('.popup-edit__form');
 const nameInputEdit = document.querySelector('.profile__name');
 const jobInputEdit = document.querySelector('.profile__description');
+const closeSaveEdit = document.querySelector('.popup-edit__save');
 
 function handleFormSubmitEdit(evt) {
   evt.preventDefault();
@@ -52,18 +49,19 @@ function handleFormSubmitEdit(evt) {
 
   nameInputEdit.textContent = name;
   jobInputEdit.textContent = description;
-
-  closeSaveEdit.addEventListener('click', () => {
-    overlayEdit.classList.remove('active');
-  });
 }
+closeSaveEdit.addEventListener('click', () => {
+  overlayEdit.classList.remove('active');
+});
 
 formElementEdit.addEventListener('submit', handleFormSubmitEdit);
+
 
 //Добавление каритнок и лайков
 const formAddEl = document.querySelector('.popup-add__form');
 const nameAddInputEl = formAddEl.querySelector('.popup-add__name-card');
 const jobAddInputEl = formAddEl.querySelector('.popup-add__url');
+const closeSaveAdd = document.querySelector('.popup-add__save');
 
 const addListenerToLike = (element) => {
   element.addEventListener('click', () => {
@@ -101,12 +99,14 @@ function handleFormSubmitAdd(evt) {
 
   elementList.prepend(cardElement);
 
-  closeSaveAdd.addEventListener('click', () => {
-    overlayAdd.classList.remove('active');
-  });
 }
 
+closeSaveAdd.addEventListener('click', () => {
+  overlayAdd.classList.remove('active');
+});
+
 formAddEl.addEventListener('submit', handleFormSubmitAdd);
+
 
 //Удаление картинок
 const addListenerToBasket = (element) => {
